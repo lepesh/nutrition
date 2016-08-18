@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var $form = $('#searchFood'),
+    var $form = $('#foodFilter'),
         searchFields = {
             name: $form.find('input[name=name]').val(),
             category: $form.find('select[name=category] option:selected').text(),
@@ -75,7 +75,7 @@ $(document).ready(function(){
         responsive: true
     });
 
-    $('form#searchFood').on('submit', function(){
+    $('form#foodFilter').on('submit', function(){
         var $form = $(this);
 
         searchFields = {

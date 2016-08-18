@@ -7,7 +7,7 @@
         <div class="col-sm-6 search-block">
             <div class="jumbotron">
                 <h2>Добро пожаловать!</h2>
-                <p>Данный сайт содержит список продуктов, который можно удобно фильтровать в зависимсти от Ваших нужд и предпочтений.</p>
+                <p>Данный сайт содержит список продуктов, который можно удобно <a href="#foodFilter">фильтровать</a> в зависимсти от Ваших нужд и предпочтений.</p>
                 <p>Используйте этот сайт, чтобы организовать свое питание правильно!</p>
 
                 <p>
@@ -152,7 +152,7 @@
             <h3 class="panel-title">Таблица пищевой ценности продуктов</h3>
         </div>
         <div class="panel-body">
-            <form id="searchFood" class="form-horizontal">
+            <form id="foodFilter" class="form-horizontal">
                 <div class="panel-group">
                     <div class="panel panel-default">
                         <div class="panel-heading">
