@@ -21,24 +21,6 @@
                     <h3 class="panel-title">Это интересно!</h3>
                 </div>
                 <div class="panel-body">
-                    <style>
-                        .carousel-control {
-                            color: #d6e9c6;
-                        }
-                        .carousel-control:hover {
-                            color: #dff0d8;
-                        }
-                        .carousel-indicators .active {
-                            background-color: #dff0d8;
-                        }
-                        .carousel-indicators li {
-                            border: 1px solid #3c763d;
-                        }
-                        .form-control.input-slim {
-                            width: 70px;
-                            text-align: center;
-                        }
-                    </style>
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
@@ -153,12 +135,12 @@
         </div>
         <div class="panel-body">
             <form id="foodFilter" class="form-horizontal">
-                <div class="panel-group">
+                <div id="filterCollapse" class="panel-group">
                     <div class="panel panel-default">
-                        <div class="panel-heading">
+                        <div class="panel-heading cursor-pointer" data-toggle="collapse" href="#sortPanel">
                             <h4 class="panel-title">
                                 Параметры фильтра
-                                <a data-toggle="collapse" href="#sortPanel" style="float:right">Скрыть/Показать</a>
+                                <span class="glyphicon glyphicon-minus blue pull-right text-primary js-toggle-panel"></span>
                             </h4>
                         </div>
                         <div id="sortPanel" class="panel-collapse collapse in">
@@ -260,7 +242,7 @@
                                 </div>
                             </div>
                             <div class="panel-footer">
-                                <div class="input-group" style="margin: auto">
+                                <div class="input-group margin-auto">
                                     <input type="submit" class="btn btn-sm btn-primary" value="Отсортировать" />
                                     <input type="reset" class="btn btn-sm btn-default" value="Очистить" />
                                 </div>

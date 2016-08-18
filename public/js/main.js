@@ -111,4 +111,12 @@ $(document).ready(function(){
 
         return false;
     });
+
+    var $filterPanel = $('#filterCollapse');
+    $filterPanel.on('show.bs.collapse', function(){
+        $(this).find('.js-toggle-panel').toggleClass('glyphicon-minus glyphicon-plus');
+    });
+    $filterPanel.on('hide.bs.collapse', function(){
+        $(this).find('.js-toggle-panel').toggleClass('glyphicon-minus glyphicon-plus');
+    });
 });
