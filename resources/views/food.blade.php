@@ -160,7 +160,7 @@
                                             <select id="categorySearch" class="form-control input-sm" name="category">
                                                 <option value="" selected=""></option>
                                                 @foreach($categories as $category)
-                                                    <option><?=$category->name?></option>
+                                                    <option>{{ $category->name }}</option>
                                                 @endforeach
                                             </select>
                                         </div>
@@ -272,14 +272,14 @@
                 <tbody>
                 @foreach ($foodList as $foodItem)
                     <tr>
-                        <td><?=$foodItem->name?></td>
-                        <td><?=$foodItem->category->name?></td>
-                        <td><?=$foodItem->gi?></td>
-                        <td><?=$foodItem->protein?></td>
-                        <td><?=$foodItem->fats?></td>
-                        <td><?=$foodItem->carbs?></td>
-                        <td><?=$foodItem->energy?></td>
-                        <td><?=$foodItem->mark?></td>
+                        <td>{{ $foodItem->name }}</td>
+                        <td>{{ $foodItem->category->name }}</td>
+                        <td>{{ $foodItem->gi }}</td>
+                        <td>{{ $foodItem->protein }}</td>
+                        <td>{{ $foodItem->fats }}</td>
+                        <td>{{ $foodItem->carbs }}</td>
+                        <td>{{ $foodItem->energy }}</td>
+                        <td>{{ $foodItem->mark }}</td>
                     </tr>
                 @endforeach
                 </tbody>
