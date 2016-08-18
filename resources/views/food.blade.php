@@ -269,6 +269,11 @@
                     </div>
                 </div>
             </form>
+
+            <div class="alert alert-warning">
+                Пищевая ценность расчитана на 100 г съедобной части продукта.
+            </div>
+
             <table id="food" class="table table-striped">
                 <thead>
                 <tr>
