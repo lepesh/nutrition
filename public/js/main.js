@@ -1,4 +1,7 @@
 $(document).ready(function(){
+
+    $('[data-toggle="tooltip"]').tooltip();
+
     var $form = $('#foodFilter'),
         searchFields = {
             name: $form.find('input[name=name]').val(),

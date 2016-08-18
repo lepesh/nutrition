@@ -166,7 +166,9 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label for="giSearch" class="col-sm-3 control-label" title="Гликемический индекс">ГИ</label>
+                                        <label for="giSearch" class="col-sm-3 control-label">
+                                            ГИ&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="right" title="Гликемический индекс"></span>
+                                        </label>
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
@@ -261,7 +263,9 @@
                 <tr>
                     <th>Наименоване продукта</th>
                     <th>Категория</th>
-                    <th title="Гликемический индекс">ГИ</th>
+                    <th>
+                        ГИ&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="top" title="Гликемический индекс"></span>
+                    </th>
                     <th>Белки</th>
                     <th>Жиры</th>
                     <th>Углеводы</th>
