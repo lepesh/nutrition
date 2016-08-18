@@ -34,6 +34,10 @@
                         .carousel-indicators li {
                             border: 1px solid #3c763d;
                         }
+                        .form-control.input-slim {
+                            width: 70px;
+                            text-align: center;
+                        }
                     </style>
                     <div id="myCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
@@ -184,9 +188,9 @@
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
-                                                <input class="form-control input-sm" id="giSearch" name="gi[from]" placeholder="с" type="text">
+                                                <input class="form-control input-sm input-slim" id="giSearch" name="gi[from]" placeholder="с" type="text">
                                                 <span>-</span>
-                                                <input class="form-control input-sm" name="gi[to]" placeholder="по" type="text">
+                                                <input class="form-control input-sm input-slim" name="gi[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -195,9 +199,9 @@
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
-                                                <input class="form-control input-sm" id="proteinSearch" name="protein[from]" placeholder="с" type="text">
+                                                <input class="form-control input-sm input-slim" id="proteinSearch" name="protein[from]" placeholder="с" type="text">
                                                 <span>-</span>
-                                                <input class="form-control input-sm" name="protein[to]" placeholder="по" type="text">
+                                                <input class="form-control input-sm input-slim" name="protein[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -206,9 +210,9 @@
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
-                                                <input class="form-control input-sm" id="fatsSearch" name="fats[from]" placeholder="с" type="text">
+                                                <input class="form-control input-sm input-slim" id="fatsSearch" name="fats[from]" placeholder="с" type="text">
                                                 <span>-</span>
-                                                <input class="form-control input-sm" name="fats[to]" placeholder="по" type="text">
+                                                <input class="form-control input-sm input-slim" name="fats[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -217,9 +221,9 @@
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
-                                                <input class="form-control input-sm" id="carbsSearch" name="carbs[from]" placeholder="с" type="text">
+                                                <input class="form-control input-sm input-slim" id="carbsSearch" name="carbs[from]" placeholder="с" type="text">
                                                 <span>-</span>
-                                                <input class="form-control input-sm" name="carbs[to]" placeholder="по" type="text">
+                                                <input class="form-control input-sm input-slim" name="carbs[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -228,9 +232,9 @@
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
-                                                <input class="form-control input-sm" id="energySearch" name="energy[from]" placeholder="с" type="text">
+                                                <input class="form-control input-sm input-slim" id="energySearch" name="energy[from]" placeholder="с" type="text">
                                                 <span>-</span>
-                                                <input class="form-control input-sm" name="energy[to]" placeholder="по" type="text">
+                                                <input class="form-control input-sm input-slim" name="energy[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -239,9 +243,9 @@
 
                                         <div class="col-sm-9">
                                             <div class="form-inline">
-                                                <input class="form-control input-sm" id="markSearch" name="mark[from]" placeholder="с" type="text">
+                                                <input class="form-control input-sm input-slim" id="markSearch" name="mark[from]" placeholder="с" type="text">
                                                 <span>-</span>
-                                                <input class="form-control input-sm" name="mark[to]" placeholder="по" type="text">
+                                                <input class="form-control input-sm input-slim" name="mark[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
                                     </div>
@@ -271,10 +275,10 @@
                     <th id="column_name" class="js-sort sort-up">Наименоване продукта</th>
                     <th id="column_category" class="js-sort">Категория</th>
                     <th id="column_gi" class="js-sort" title="Гликемический индекс">ГИ</th>
-                    <th id="column_protein" class="js-sort" title="Пищевая ценность продуктов (на 100г)">Белки</th>
-                    <th id="column_fats" class="js-sort" title="Пищевая ценность продуктов (на 100г)">Жиры</th>
-                    <th id="column_carbs" class="js-sort" title="Пищевая ценность продуктов (на 100г)">Углеводы</th>
-                    <th id="column_energy" class="js-sort" title="Пищевая ценность продуктов (на 100г)">Ккал</th>
+                    <th id="column_protein" class="js-sort">Белки</th>
+                    <th id="column_fats" class="js-sort">Жиры</th>
+                    <th id="column_carbs" class="js-sort">Углеводы</th>
+                    <th id="column_energy" class="js-sort">Ккал</th>
                     <th id="column_mark" class="js-sort">Оценка<!--<a href="http://hudeemkrasivo.ru/gl_index">hudeemkrasivo.ru</a>--></th>
                 </tr>
                 </thead>
