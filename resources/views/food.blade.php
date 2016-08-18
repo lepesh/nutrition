@@ -259,14 +259,14 @@
             <table id="food" class="table table-striped">
                 <thead>
                 <tr>
-                    <th id="column_name" class="js-sort sort-up">Наименоване продукта</th>
-                    <th id="column_category" class="js-sort">Категория</th>
-                    <th id="column_gi" class="js-sort" title="Гликемический индекс">ГИ</th>
-                    <th id="column_protein" class="js-sort">Белки</th>
-                    <th id="column_fats" class="js-sort">Жиры</th>
-                    <th id="column_carbs" class="js-sort">Углеводы</th>
-                    <th id="column_energy" class="js-sort">Ккал</th>
-                    <th id="column_mark" class="js-sort">Оценка<!--<a href="http://hudeemkrasivo.ru/gl_index">hudeemkrasivo.ru</a>--></th>
+                    <th>Наименоване продукта</th>
+                    <th>Категория</th>
+                    <th title="Гликемический индекс">ГИ</th>
+                    <th>Белки</th>
+                    <th>Жиры</th>
+                    <th>Углеводы</th>
+                    <th>Ккал</th>
+                    <th>Оценка<!--<a href="http://hudeemkrasivo.ru/gl_index">hudeemkrasivo.ru</a>--></th>
                 </tr>
                 </thead>
                 <tbody>
