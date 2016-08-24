@@ -18,6 +18,8 @@
         @yield('content')
     </div><!-- /.content-wrapper -->
 
+    @include('layouts.partials.footer')
+
     @section('scripts')
         @include('layouts.partials.scripts')
     @show

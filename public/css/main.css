@@ -10,10 +10,48 @@
 .carousel-indicators li {
     border: 1px solid #3c763d;
 }
+
+/* Additional form elements styles
+-------------------------------------------------- */
 .form-control.input-slim {
     width: 70px;
     text-align: center;
 }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 70px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 70px;
+    background-color: #f5f5f5;
+}
+
+.footer .footer__content {
+    margin: 15px 0;
+}
+.footer__content .share__label {
+    height: 40px;
+    display: inline-block;
+    margin: 5px;
+}
+.footer__content .share__icons {
+    float: right;
+    height: 40px;
+}
+
+/* Single styles
+-------------------------------------------------- */
 .cursor-pointer {
     cursor: pointer;
 }

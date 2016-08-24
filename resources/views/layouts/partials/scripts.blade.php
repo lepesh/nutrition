@@ -7,5 +7,8 @@
 <!-- DataTables -->
 <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/responsive/2.1.0/js/dataTables.responsive.min.js"></script>
+<!-- ShareThis -->
+<script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
+<script type="text/javascript">stLight.options({publisher: "cb52aee1-9fae-431c-ba25-f16deabb94e4", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
 
 <script src="js/main.js" type="text/javascript"></script>
