@@ -1,14 +1,41 @@
-.carousel-control {
-    color: #d6e9c6;
+/* Carousel for "It's interesting" block
+--------------------------------------------------- */
+.panel-body.interesting {
+    padding: 20px 70px 30px;
 }
-.carousel-control:hover {
+#interestingCarousel .carousel-control {
+    color: #d6e9c6;
+    width: 40px;
+}
+#interestingCarousel .carousel-inner {
+    height: 310px;
+}
+#interestingCarousel .carousel-control:hover {
     color: #dff0d8;
 }
-.carousel-indicators .active {
+#interestingCarousel .carousel-control.left {
+    left: -60px;
+}
+#interestingCarousel .carousel-control.right {
+    right: -60px;
+}
+#interestingCarousel .carousel-indicators {
+    bottom: -30px;
+}
+#interestingCarousel .carousel-indicators .active {
     background-color: #dff0d8;
 }
-.carousel-indicators li {
-    border: 1px solid #3c763d;
+#interestingCarousel .carousel-indicators li {
+    border: 1px solid #d6e9c6;
+}
+#interestingCarousel .item {
+    text-align: center;
+}
+#interestingCarousel .item h3 {
+    margin-bottom: 30px;
+}
+#interestingCarousel table {
+    text-align: left;
 }
 
 /* Additional form elements styles

@@ -20,19 +20,19 @@
                 <div class="panel-heading">
                     <h3 class="panel-title">Это интересно!</h3>
                 </div>
-                <div class="panel-body">
-                    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="panel-body interesting">
+                    <div id="interestingCarousel" class="carousel slide" data-ride="carousel">
                         <!-- Indicators -->
                         <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#interestingCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#interestingCarousel" data-slide-to="1"></li>
+                            <li data-target="#interestingCarousel" data-slide-to="2"></li>
+                            <li data-target="#interestingCarousel" data-slide-to="3"></li>
+                            <li data-target="#interestingCarousel" data-slide-to="4"></li>
                         </ol>
-
                         <!-- Wrapper for slides -->
-                        <div class="carousel-inner" role="listbox" style="height: 330px">
-                            <div class="item active"  style="width: 70%; margin: auto">
+                        <div class="carousel-inner" role="listbox">
+                            <div class="item active">
                                 <h3>Гликемический индекс</h3>
                                 <table class="table">
                                     <tr>
@@ -49,7 +49,7 @@
                                     </tr>
                                 </table>
                             </div>
-                            <div class="item"  style="width: 70%; margin: auto">
+                            <div class="item">
                                 <h3>Питание перед тренировкой</h3>
                                 <table class="table">
                                     <tr>
@@ -58,19 +58,32 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 - 2 гг</td>
+                                        <td>0 - 2 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
-                                        <td>Углеводы:</td>
-                                        <td>40 - 70 гг</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Калории:</td>
-                                        <td>300 ккал</td>
+                                        <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс до 49">Медленные углеводы</a>:</td>
+                                        <td>40 - 60 гг</td>
                                     </tr>
                                 </table>
                             </div>
-                            <div class="item"  style="width: 70%; margin: auto">
+                            <div class="item">
+                                <h3>Питание перед тренировкой для похудения</h3>
+                                <table class="table">
+                                    <tr>
+                                        <td>Белки:</td>
+                                        <td>10 - 15 гг</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Жиры:</td>
+                                        <td>0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
+                                    </tr>
+                                    <tr>
+                                        <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс до 49">Медленные углеводы</a>:</td>
+                                        <td>15 - 20 гг</td>
+                                    </tr>
+                                </table>
+                            </div>
+                            <div class="item">
                                 <h3>Питание после тренировки</h3>
                                 <table class="table">
                                     <tr>
@@ -79,20 +92,16 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 - 2 гг</td>
+                                        <td>0 - 3 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
-                                        <td>Углеводы:</td>
-                                        <td>40 - 70 гг</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Калории:</td>
-                                        <td>300 ккал</td>
+                                        <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс от 70">Быстрые углеводы</a>:</td>
+                                        <td>60 - 100 гг</td>
                                     </tr>
                                 </table>
                             </div>
-                            <div class="item"  style="width: 70%; margin: auto">
-                                <h3>Питание после тренировки</h3>
+                            <div class="item">
+                                <h3>Питание после тренировки для похудения</h3>
                                 <table class="table">
                                     <tr>
                                         <td>Белки:</td>
@@ -100,26 +109,22 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 - 2 гг</td>
+                                        <td>0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
-                                        <td>Углеводы:</td>
-                                        <td>40 - 70 гг</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Калории:</td>
-                                        <td>300 ккал</td>
+                                        <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс от 70">Быстрые углеводы</a>:</td>
+                                        <td>0 гг</td>
                                     </tr>
                                 </table>
                             </div>
                         </div>
 
                         <!-- Left and right controls -->
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev" style="background-image: none">
+                        <a class="left carousel-control" href="#interestingCarousel" role="button" data-slide="prev" style="background-image: none">
                             <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                             <span class="sr-only">Previous</span>
                         </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next" style="background-image: none">
+                        <a class="right carousel-control" href="#interestingCarousel" role="button" data-slide="next" style="background-image: none">
                             <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                             <span class="sr-only">Next</span>
                         </a>
