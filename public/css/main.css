@@ -6,6 +6,7 @@
 #interestingCarousel .carousel-control {
     color: #d6e9c6;
     width: 40px;
+    background-image: none;
 }
 #interestingCarousel .carousel-inner {
     height: 310px;
