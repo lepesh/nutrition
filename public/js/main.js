@@ -122,4 +122,47 @@ $(document).ready(function(){
     $filterPanel.on('hide.bs.collapse', function(){
         $(this).find('.js-toggle-panel').toggleClass('glyphicon-minus glyphicon-plus');
     });
+
+    $('#contact_form').bootstrapValidator({
+            // To use feedback icons, ensure that you use Bootstrap v3.1.0 or later
+            feedbackIcons: {
+                valid: 'glyphicon glyphicon-ok',
+                invalid: 'glyphicon glyphicon-remove',
+                validating: 'glyphicon glyphicon-refresh'
+            },
+            fields: {
+                name: {
+                    validators: {
+                        stringLength: {
+                            min: 2
+                        },
+                        notEmpty: {
+                            message: 'Пожалуйста, укажите Ваше имя'
+                        }
+                    }
+                },
+                email: {
+                    validators: {
+                        notEmpty: {
+                            message: 'Пожалуйста, укажите Ваш e-mail'
+                        },
+                        emailAddress: {
+                            message: 'Пожалуйста, укажите верный e-mail адрес'
+                        }
+                    }
+                },
+                message: {
+                    validators: {
+                        stringLength: {
+                            min: 10,
+                            max: 3000,
+                            message:'Пожалуйста, введите не менее 10 и не более 3000 символов'
+                        },
+                        notEmpty: {
+                            message: 'Поле сообщения не может быть пустым'
+                        }
+                    }
+                }
+            }
+        });
 });

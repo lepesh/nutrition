@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a7cb82a4190f7a38b1405c21084b40f4",
-    "content-hash": "a8ecf1a967f287c27b871210595d34e2",
+    "hash": "fd69cb5d2224ee43f42ffa07c7e49f4b",
+    "content-hash": "e35df86cfe74df666f12e4efd916b083",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -76,7 +76,7 @@
         },
         {
             "name": "illuminate/auth",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/auth.git",
@@ -127,7 +127,7 @@
         },
         {
             "name": "illuminate/broadcasting",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/broadcasting.git",
@@ -174,7 +174,7 @@
         },
         {
             "name": "illuminate/bus",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/bus.git",
@@ -219,16 +219,16 @@
         },
         {
             "name": "illuminate/cache",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/cache.git",
-                "reference": "8e506168a3b965b17905e0ac03949a45c488df23"
+                "reference": "09bcee8982c40570947b799d65987aa030d7706b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/cache/zipball/8e506168a3b965b17905e0ac03949a45c488df23",
-                "reference": "8e506168a3b965b17905e0ac03949a45c488df23",
+                "url": "https://api.github.com/repos/illuminate/cache/zipball/09bcee8982c40570947b799d65987aa030d7706b",
+                "reference": "09bcee8982c40570947b799d65987aa030d7706b",
                 "shasum": ""
             },
             "require": {
@@ -265,11 +265,11 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-04 13:37:58"
+            "time": "2016-08-18 14:17:46"
         },
         {
             "name": "illuminate/config",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/config.git",
@@ -314,7 +314,7 @@
         },
         {
             "name": "illuminate/console",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/console.git",
@@ -365,7 +365,7 @@
         },
         {
             "name": "illuminate/container",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/container.git",
@@ -408,7 +408,7 @@
         },
         {
             "name": "illuminate/contracts",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/contracts.git",
@@ -450,16 +450,16 @@
         },
         {
             "name": "illuminate/database",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "2d2b59a0eca0413c27d36200148896e7ec8dcf12"
+                "reference": "4a70c0598ed41d18a99f23c12be4e22b5006d30a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/2d2b59a0eca0413c27d36200148896e7ec8dcf12",
-                "reference": "2d2b59a0eca0413c27d36200148896e7ec8dcf12",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/4a70c0598ed41d18a99f23c12be4e22b5006d30a",
+                "reference": "4a70c0598ed41d18a99f23c12be4e22b5006d30a",
                 "shasum": ""
             },
             "require": {
@@ -506,11 +506,11 @@
                 "orm",
                 "sql"
             ],
-            "time": "2016-08-10 12:23:59"
+            "time": "2016-08-25 07:01:20"
         },
         {
             "name": "illuminate/encryption",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/encryption.git",
@@ -557,7 +557,7 @@
         },
         {
             "name": "illuminate/events",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/events.git",
@@ -602,16 +602,16 @@
         },
         {
             "name": "illuminate/filesystem",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/filesystem.git",
-                "reference": "df115e3cc4444f340064a3e20e16eed9c25e8263"
+                "reference": "39668a50e0cf1d673e58e7dbb437475708cfb508"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/df115e3cc4444f340064a3e20e16eed9c25e8263",
-                "reference": "df115e3cc4444f340064a3e20e16eed9c25e8263",
+                "url": "https://api.github.com/repos/illuminate/filesystem/zipball/39668a50e0cf1d673e58e7dbb437475708cfb508",
+                "reference": "39668a50e0cf1d673e58e7dbb437475708cfb508",
                 "shasum": ""
             },
             "require": {
@@ -648,11 +648,11 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-01 13:49:14"
+            "time": "2016-08-17 17:21:29"
         },
         {
             "name": "illuminate/hashing",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/hashing.git",
@@ -696,16 +696,16 @@
         },
         {
             "name": "illuminate/http",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/http.git",
-                "reference": "4cdb5c71a5bb8d4a8699628d1357598d98c7a0f0"
+                "reference": "019d947e218f8dce421010a22d899d6f4b4ced45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/http/zipball/4cdb5c71a5bb8d4a8699628d1357598d98c7a0f0",
-                "reference": "4cdb5c71a5bb8d4a8699628d1357598d98c7a0f0",
+                "url": "https://api.github.com/repos/illuminate/http/zipball/019d947e218f8dce421010a22d899d6f4b4ced45",
+                "reference": "019d947e218f8dce421010a22d899d6f4b4ced45",
                 "shasum": ""
             },
             "require": {
@@ -738,11 +738,63 @@
             ],
             "description": "The Illuminate Http package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-10 00:59:34"
+            "time": "2016-08-10 17:33:08"
+        },
+        {
+            "name": "illuminate/mail",
+            "version": "v5.2.45",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/illuminate/mail.git",
+                "reference": "901d2233f619709fb2ad217ffa0454e0bc339a7f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/illuminate/mail/zipball/901d2233f619709fb2ad217ffa0454e0bc339a7f",
+                "reference": "901d2233f619709fb2ad217ffa0454e0bc339a7f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/container": "5.2.*",
+                "illuminate/contracts": "5.2.*",
+                "illuminate/support": "5.2.*",
+                "php": ">=5.5.9",
+                "psr/log": "~1.0",
+                "swiftmailer/swiftmailer": "~5.1"
+            },
+            "suggest": {
+                "aws/aws-sdk-php": "Required to use the SES mail driver (~3.0).",
+                "guzzlehttp/guzzle": "Required to use the Mailgun and Mandrill mail drivers (~5.3|~6.0).",
+                "jeremeamia/superclosure": "Required to be able to serialize closures (~2.0)."
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.2-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Illuminate\\Mail\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "The Illuminate Mail package.",
+            "homepage": "http://laravel.com",
+            "time": "2016-08-04 14:15:00"
         },
         {
             "name": "illuminate/pagination",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pagination.git",
@@ -786,7 +838,7 @@
         },
         {
             "name": "illuminate/pipeline",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/pipeline.git",
@@ -830,7 +882,7 @@
         },
         {
             "name": "illuminate/queue",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/queue.git",
@@ -887,7 +939,7 @@
         },
         {
             "name": "illuminate/session",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/session.git",
@@ -937,7 +989,7 @@
         },
         {
             "name": "illuminate/support",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
@@ -996,7 +1048,7 @@
         },
         {
             "name": "illuminate/translation",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/translation.git",
@@ -1041,16 +1093,16 @@
         },
         {
             "name": "illuminate/validation",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/validation.git",
-                "reference": "f4cf59ff20e8be7565b212d7dce2c270bbbdb18f"
+                "reference": "24909f0ee0866256eca0a0b72977753886a8a479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/validation/zipball/f4cf59ff20e8be7565b212d7dce2c270bbbdb18f",
-                "reference": "f4cf59ff20e8be7565b212d7dce2c270bbbdb18f",
+                "url": "https://api.github.com/repos/illuminate/validation/zipball/24909f0ee0866256eca0a0b72977753886a8a479",
+                "reference": "24909f0ee0866256eca0a0b72977753886a8a479",
                 "shasum": ""
             },
             "require": {
@@ -1087,11 +1139,11 @@
             ],
             "description": "The Illuminate Validation package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-04 13:12:20"
+            "time": "2016-08-18 13:15:33"
         },
         {
             "name": "illuminate/view",
-            "version": "v5.2.43",
+            "version": "v5.2.45",
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/view.git",
@@ -1518,6 +1570,59 @@
                 "psr-3"
             ],
             "time": "2012-12-21 11:40:51"
+        },
+        {
+            "name": "swiftmailer/swiftmailer",
+            "version": "v5.4.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/swiftmailer/swiftmailer.git",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "reference": "4cc92842069c2bbc1f28daaaf1d2576ec4dfe153",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "require-dev": {
+                "mockery/mockery": "~0.9.1"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.4-dev"
+                }
+            },
+            "autoload": {
+                "files": [
+                    "lib/swift_required.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Chris Corbyn"
+                },
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Swiftmailer, free feature-rich PHP mailer",
+            "homepage": "http://swiftmailer.org",
+            "keywords": [
+                "email",
+                "mail",
+                "mailer"
+            ],
+            "time": "2016-07-08 11:51:25"
         },
         {
             "name": "symfony/console",
@@ -3121,23 +3226,23 @@
         },
         {
             "name": "sebastian/environment",
-            "version": "1.3.7",
+            "version": "1.3.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/environment.git",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716"
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/4e8f0da10ac5802913afc151413bc8c53b6c2716",
-                "reference": "4e8f0da10ac5802913afc151413bc8c53b6c2716",
+                "url": "https://api.github.com/repos/sebastianbergmann/environment/zipball/be2c607e43ce4c89ecd60e75c6a85c126e754aea",
+                "reference": "be2c607e43ce4c89ecd60e75c6a85c126e754aea",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": "^5.3.3 || ^7.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.4"
+                "phpunit/phpunit": "^4.8 || ^5.0"
             },
             "type": "library",
             "extra": {
@@ -3167,7 +3272,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-05-17 03:18:57"
+            "time": "2016-08-18 05:49:44"
         },
         {
             "name": "sebastian/exporter",

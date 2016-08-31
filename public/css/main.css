@@ -45,6 +45,10 @@
     width: 70px;
     text-align: center;
 }
+.form-control.feedback-textarea {
+    height: 250px;
+    resize: none;
+}
 
 /* Sticky footer styles
 -------------------------------------------------- */
@@ -85,4 +89,5 @@ body {
 }
 .margin-auto {
     margin: auto;
+    resize: none;
 }

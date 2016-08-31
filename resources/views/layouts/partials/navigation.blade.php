@@ -11,7 +11,8 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="/">Главная</a></li>
+                <li class="{{ app('request')->is('/') ? 'active' : '' }}"><a href="/">Главная</a></li>
+                <li class="{{ app('request')->is('feedback') ? 'active' : '' }}"><a href="/feedback">Обратная связь</a></li>
             </ul>
         </div><!--/.nav-collapse -->
     </div>

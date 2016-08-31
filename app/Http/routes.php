@@ -14,3 +14,10 @@
 $app->get('/', [
     'as' => 'index', 'uses' => 'FoodController@food'
 ]);
+
+$app->get('/feedback', [
+    'as' => 'feedback', 'uses' => 'ContactController@feedback'
+]);
+$app->post('/feedback', [
+    'as' => 'feedback', 'uses' => 'ContactController@send'
+]);
