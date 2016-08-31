@@ -112,7 +112,7 @@
                                         <td>0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
-                                        <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс от 70">Быстрые углеводы</a>:</td>
+                                        <td>Углеводы:</td>
                                         <td>0 гг</td>
                                     </tr>
                                 </table>
