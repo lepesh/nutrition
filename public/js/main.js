@@ -70,7 +70,9 @@ $(document).ready(function(){
         language: {
             url: "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Russian.json"
         },
-        responsive: true
+        responsive: true,
+        lengthMenu: [10, 20, 50, 100],
+        iDisplayLength: 20
     });
 
     $('form#foodFilter').on('submit', function(){
