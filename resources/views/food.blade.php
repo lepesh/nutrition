@@ -176,9 +176,9 @@
                                         </label>
 
                                         <div class="col-sm-9">
-                                            <div class="form-inline">
+                                            <div class="input-group">
                                                 <input class="form-control input-sm input-slim" id="giSearch" name="gi[from]" placeholder="с" type="text">
-                                                <span>-</span>
+                                                <div class="inputs-separator">-</div>
                                                 <input class="form-control input-sm input-slim" name="gi[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
@@ -187,9 +187,9 @@
                                         <label for="proteinSearch" class="col-sm-3 control-label">Белки</label>
 
                                         <div class="col-sm-9">
-                                            <div class="form-inline">
+                                            <div class="input-group">
                                                 <input class="form-control input-sm input-slim" id="proteinSearch" name="protein[from]" placeholder="с" type="text">
-                                                <span>-</span>
+                                                <div class="inputs-separator">-</div>
                                                 <input class="form-control input-sm input-slim" name="protein[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
@@ -198,9 +198,9 @@
                                         <label for="fatsSearch" class="col-sm-3 control-label">Жиры</label>
 
                                         <div class="col-sm-9">
-                                            <div class="form-inline">
+                                            <div class="input-group">
                                                 <input class="form-control input-sm input-slim" id="fatsSearch" name="fats[from]" placeholder="с" type="text">
-                                                <span>-</span>
+                                                <div class="inputs-separator">-</div>
                                                 <input class="form-control input-sm input-slim" name="fats[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
@@ -209,9 +209,9 @@
                                         <label for="carbsSearch" class="col-sm-3 control-label">Углеводы</label>
 
                                         <div class="col-sm-9">
-                                            <div class="form-inline">
+                                            <div class="input-group">
                                                 <input class="form-control input-sm input-slim" id="carbsSearch" name="carbs[from]" placeholder="с" type="text">
-                                                <span>-</span>
+                                                <div class="inputs-separator">-</div>
                                                 <input class="form-control input-sm input-slim" name="carbs[to]" placeholder="по" type="text">
                                             </div>
                                         </div>
@@ -220,9 +220,9 @@
                                         <label for="energySearch" class="col-sm-3 control-label">Ккал</label>
 
                                         <div class="col-sm-9">
-                                            <div class="form-inline">
+                                            <div class="input-group">
                                                 <input class="form-control input-sm input-slim" id="energySearch" name="energy[from]" placeholder="с" type="text">
-                                                <span>-</span>
+                                                <div class="inputs-separator">-</div>
                                                 <input class="form-control input-sm input-slim" name="energy[to]" placeholder="по" type="text">
                                             </div>
                                         </div>

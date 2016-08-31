@@ -1,3 +1,9 @@
+.inputs-separator {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 10px;
+}
+
 /* Carousel for "It's interesting" block
 --------------------------------------------------- */
 .panel-body.interesting {
