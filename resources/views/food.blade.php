@@ -227,17 +227,6 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group">
-                                        <label for="markSearch" class="col-sm-3 control-label">Оценка</label>
-
-                                        <div class="col-sm-9">
-                                            <div class="form-inline">
-                                                <input class="form-control input-sm input-slim" id="markSearch" name="mark[from]" placeholder="с" type="text">
-                                                <span>-</span>
-                                                <input class="form-control input-sm input-slim" name="mark[to]" placeholder="по" type="text">
-                                            </div>
-                                        </div>
-                                    </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="well">
@@ -281,7 +270,6 @@
                     <th>Жиры</th>
                     <th>Углеводы</th>
                     <th>Ккал</th>
-                    <th>Оценка<!--<a href="http://hudeemkrasivo.ru/gl_index">hudeemkrasivo.ru</a>--></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -294,7 +282,6 @@
                         <td>{{ $foodItem->fats }}</td>
                         <td>{{ $foodItem->carbs }}</td>
                         <td>{{ $foodItem->energy }}</td>
-                        <td>{{ $foodItem->mark }}</td>
                     </tr>
                 @endforeach
                 </tbody>

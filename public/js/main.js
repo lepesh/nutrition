@@ -25,10 +25,6 @@ $(document).ready(function(){
             energy: {
                 from: $form.find('input[name="energy[from]"]').val(),
                 to: $form.find('input[name="energy[to]"]').val()
-            },
-            mark: {
-                from: $form.find('input[name="mark[from]"]').val(),
-                to: $form.find('input[name="mark[to]"]').val()
             }
         };
 
@@ -41,8 +37,7 @@ $(document).ready(function(){
                 protein: parseFloat(data[3]) || 0,
                 fats: parseFloat(data[4]) || 0,
                 carbs: parseFloat(data[5]) || 0,
-                energy: parseFloat(data[6]) || 0,
-                mark: parseFloat(data[7]) || 0
+                energy: parseFloat(data[6]) || 0
             };
 
             for (var field in rowSearchDataset) {
@@ -103,10 +98,6 @@ $(document).ready(function(){
             energy: {
                 from: $form.find('input[name="energy[from]"]').val(),
                 to: $form.find('input[name="energy[to]"]').val()
-            },
-            mark: {
-                from: $form.find('input[name="mark[from]"]').val(),
-                to: $form.find('input[name="mark[to]"]').val()
             }
         };
 
