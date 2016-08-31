@@ -30,4 +30,22 @@ class ContactController extends Controller
             'sendResult' => $sendResult
         ]);
     }
+
+    public function write(Request $request)
+    {
+        $name = $request->get('name');
+        $email = $request->get('email');
+        $text = $request->get('message');
+        $pass = storage_path('app/');
+
+        $message = 'Имя: ' . $name . PHP_EOL . 'Email: ' . $email . PHP_EOL . PHP_EOL . $text;
+
+        $result = file_put_contents($pass . time() . '.txt', $message);
+
+        $sendResult = $result === false ? false : true;
+
+        return view('feedback', [
+            'sendResult' => $sendResult
+        ]);
+    }
 }

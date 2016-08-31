@@ -19,5 +19,5 @@ $app->get('/feedback', [
     'as' => 'feedback', 'uses' => 'ContactController@feedback'
 ]);
 $app->post('/feedback', [
-    'as' => 'feedback', 'uses' => 'ContactController@send'
+    'as' => 'feedback', 'uses' => 'ContactController@write'
 ]);
