@@ -7,7 +7,7 @@
 /* Carousel for "It's interesting" block
 --------------------------------------------------- */
 .panel-body.interesting {
-    padding: 20px 70px 30px;
+    padding: 20px 55px 30px;
 }
 #interestingCarousel .carousel-control {
     color: #d6e9c6;
@@ -21,10 +21,10 @@
     color: #dff0d8;
 }
 #interestingCarousel .carousel-control.left {
-    left: -60px;
+    left: -50px;
 }
 #interestingCarousel .carousel-control.right {
-    right: -60px;
+    right: -50px;
 }
 #interestingCarousel .carousel-indicators {
     bottom: -30px;

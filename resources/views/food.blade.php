@@ -58,7 +58,7 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 - 2 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
+                                        <td class="text-nowrap">0 - 2 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
                                         <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс до 49">Медленные углеводы</a>:</td>
@@ -75,7 +75,7 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
+                                        <td class="text-nowrap">0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
                                         <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс до 49">Медленные углеводы</a>:</td>
@@ -92,7 +92,7 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 - 3 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
+                                        <td class="text-nowrap">0 - 3 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
                                         <td><a href="javascript:void(0)" data-toggle="tooltip" data-placement="right" title="Гликемический индекс от 70">Быстрые углеводы</a>:</td>
@@ -109,7 +109,7 @@
                                     </tr>
                                     <tr>
                                         <td>Жиры:</td>
-                                        <td>0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
+                                        <td class="text-nowrap">0 гг&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="left" title="Жирную пищу потреблять не рекомендуется, так как жиры тормозят усвоение белков и углеводов"></span></td>
                                     </tr>
                                     <tr>
                                         <td>Углеводы:</td>
