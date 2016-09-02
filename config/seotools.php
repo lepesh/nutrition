@@ -23,7 +23,7 @@ return [
             'bing'      => null,
             'alexa'     => null,
             'pinterest' => null,
-            'yandex'    => null,
+            'yandex'    => "7a59b151bb49b683",
         ],
     ],
     'opengraph' => [
