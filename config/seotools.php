@@ -37,7 +37,7 @@ return [
             'url'         => "http://nutrition.me.pn",
             'type'        => "website",
             'site_name'   => false,
-            'images'      => ['http://nutrition.me.pn/img/hot-dog-152-69763.png'],
+            'images'      => ['https://pixabay.com/static/uploads/photo/2015/03/28/10/21/diet-695723_640.jpg'],
         ],
     ],
     'twitter' => [
