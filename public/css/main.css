@@ -4,6 +4,48 @@
     padding: 0 10px;
 }
 
+/* Calculator
+--------------------------------------------------- */
+#calculator-wrap {
+    display: none;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    z-index: 999999999;
+    max-width: 500px;
+    padding: 5px;
+}
+#calculator-wrap.shown {
+    display: block;
+}
+.panel-heading .panel-heading-control {
+    float: right;
+}
+.panel-heading.collapsed .panel-heading-control {
+    display: none;
+}
+.panel-heading .panel-heading-control .glyphicon {
+    margin-left: 5px;
+}
+.panel-body.calc-container {
+    padding: 0;
+}
+.panel-body.calc-container .table {
+    margin: 0;
+}
+.calc-input {
+    width: 50px;
+    text-align: center;
+}
+#calculator thead td {
+    text-align: center;
+    padding: 2px;
+}
+#calculator thead td img {
+    height: 25px;
+    width: 25px;
+}
+
 /* Carousel for "It's interesting" block
 --------------------------------------------------- */
 .panel-body.interesting {

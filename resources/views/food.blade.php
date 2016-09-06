@@ -3,6 +3,46 @@
 @section('title', 'Главная')
 
 @section('content')
+    <div id="calculator-wrap">
+        <div class="panel panel-warning panel-extended">
+            <div class="panel-heading" data-toggle="collapse" href="#calcPanel">
+                <div class="panel-title">
+                    <img src="img/calculator.png" />
+                    <div class="panel-heading-control">
+                        <a href="javascript:void(0)"><span class="glyphicon glyphicon-minus js-toggle-panel"></span></a>
+                        <a href="javascript:void(0)"><span class="glyphicon glyphicon-remove js-close-calc"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div id="calcPanel" class="panel-collapse collapse in">
+                <div class="panel-body calc-container">
+                    <table id="calculator" class="table table-striped table-bordered">
+                        <thead>
+                        <tr>
+                            <td></td>
+                            <td><img src="img/protein-50.png" alt="Белки" data-toggle="tooltip" data-placement="top" title="Белки" /></td>
+                            <td><img src="img/fats-512.png" alt="Жиры" data-toggle="tooltip" data-placement="top" title="Жиры" /></td>
+                            <td><img src="img/carbohydrates-50.png" alt="Углеводы" data-toggle="tooltip" data-placement="top" title="Углеводы" /></td>
+                            <td><img src="img/energy-50.png" alt="Ккал" data-toggle="tooltip" data-placement="top" title="Ккал" /></td>
+                            <td><img src="img/weight-50.png" alt="Вес, г" data-toggle="tooltip" data-placement="top" title="Вес, г" /></td>
+                        </tr>
+                        </thead>
+                        <tbody></tbody>
+                        <tfoot>
+                        <tr class="bg-warning">
+                            <td>Итого:</td>
+                            <td class="protein-total">0</td>
+                            <td class="fats-total">0</td>
+                            <td class="carbs-total">0</td>
+                            <td class="energy-total">0</td>
+                            <td class="weight-total">0</td>
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-sm-6 search-block">
             <div class="jumbotron">
@@ -140,8 +180,8 @@
         </div>
         <div class="panel-body">
             <form id="foodFilter" class="form-horizontal">
-                <div id="filterCollapse" class="panel-group">
-                    <div class="panel panel-default">
+                <div class="panel-group">
+                    <div class="panel panel-default panel-extended">
                         <div class="panel-heading cursor-pointer" data-toggle="collapse" href="#sortPanel">
                             <h4 class="panel-title">
                                 Параметры фильтра
@@ -254,7 +294,7 @@
                 </div>
             </form>
 
-            <div class="alert alert-warning">
+            <div class="alert alert-success">
                 Пищевая ценность расчитана на 100 г съедобной части продукта.
             </div>
 
@@ -266,16 +306,16 @@
                     <th>
                         ГИ&nbsp;<span class="glyphicon glyphicon-question-sign text-success" data-toggle="tooltip" data-placement="top" title="Гликемический индекс"></span>
                     </th>
-                    <th>Белки</th>
-                    <th>Жиры</th>
-                    <th>Углеводы</th>
-                    <th>Ккал</th>
+                    <td>Белки <img src="img/protein-50.png" alt="Белки" height="25" width="25" /></td>
+                    <td>Жиры <img src="img/fats-512.png" alt="Жиры" height="25" width="25" /></td>
+                    <td>Углеводы <img src="img/carbohydrates-50.png" alt="Углеводы" height="25" width="25" /></td>
+                    <td>Ккал <img src="img/energy-50.png" alt="Ккал" height="25" width="25" /></td>
                 </tr>
                 </thead>
                 <tbody>
                 @foreach ($foodList as $foodItem)
                     <tr>
-                        <td>{{ $foodItem->name }}</td>
+                        <td><img class="cursor-pointer js-add-item" src="img/calculator-add-icon.png" alt="calc" /> {{ $foodItem->name }}</td>
                         <td>{{ $foodItem->category->name }}</td>
                         <td>{{ $foodItem->gi }}</td>
                         <td>{{ $foodItem->protein }}</td>
