@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Главная')
+@section('title', 'Гликемический индекс, пищевая и энергетическая ценность продуктов. Калькулятор пищевой ценности.')
 
 @section('content')
     <div id="calculator-wrap">
@@ -46,13 +46,13 @@
     <div class="row">
         <div class="col-sm-6 search-block">
             <div class="jumbotron">
-                <h2>Добро пожаловать!</h2>
-                <p>Данный сайт содержит список продуктов, который можно удобно <a href="#foodFilter">фильтровать</a> в зависимсти от Ваших нужд и предпочтений.</p>
+                <p>Сайт содержит список продуктов, который можно удобно <a href="#foodFilter">фильтровать</a>
+                    в зависимсти от Ваших нужд и предпочтений, а так же предоставляет <a href="#calcInfo">калькулятор</a>, позволяющий
+                    рассчитывать пищевые показатели продуктов в зависимости от веса.</p>
+
                 <p>Используйте этот сайт, чтобы организовать свое питание правильно!</p>
 
-                <p>
-                    <a class="btn btn-lg btn-primary" href="#food" role="button">Перейти к списку &gt;</a>
-                </p>
+                <p><a class="btn btn-lg btn-primary" href="#food" role="button">Перейти к списку &gt;</a></p>
             </div>
         </div>
         <div class="col-sm-6 reminder">
@@ -294,7 +294,11 @@
                 </div>
             </form>
 
-            <div class="alert alert-success">
+            <div id="calcInfo" class="alert alert-info">
+                <img src="img/calculator.png" /> Чтобы воспользоваться пищевым калькулятором нажмите на значок <img src="img/calculator-add-icon.png" alt="calc" /> слева от наименования продукта.
+            </div>
+
+            <div class="alert alert-info">
                 Пищевая ценность расчитана на 100 г съедобной части продукта.
             </div>
 

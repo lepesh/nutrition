@@ -175,8 +175,8 @@ $(document).ready(function(){
                 '<tr>' +
                     '<td>'+name+'</td>' +
                     '<td class="nutritional protein-cell" data-original="'+protein+'">'+protein+'</td>' +
-                    '<td class="nutritional carbs-cell" data-original="'+fats+'">'+fats+'</td>' +
-                    '<td class="nutritional fats-cell" data-original="'+carbs+'">'+carbs+'</td>' +
+                    '<td class="nutritional fats-cell" data-original="'+fats+'">'+fats+'</td>' +
+                    '<td class="nutritional carbs-cell" data-original="'+carbs+'">'+carbs+'</td>' +
                     '<td class="nutritional energy-cell" data-original="'+energy+'">'+energy+'</td>' +
                     '<td><input class="calc-input weight-cell" type="text" value="100" maxlength="5"></td>' +
                     '<td><a class="remove-calc-item" href="javascript:void(0)"><span class="glyphicon glyphicon-trash"></span></a></td>' +
