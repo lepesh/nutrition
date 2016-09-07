@@ -8,10 +8,10 @@
 
 <url>
   <loc>http://nutrition.me.pn/</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 <url>
   <loc>http://nutrition.me.pn/feedback</loc>
-  <changefreq>weekly</changefreq>
+  <changefreq>daily</changefreq>
 </url>
 </urlset>
