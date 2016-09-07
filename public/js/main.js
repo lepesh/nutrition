@@ -70,7 +70,17 @@ $(document).ready(function(){
         language: {
             url: "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Russian.json"
         },
-        responsive: true,
+        responsive: {
+            details: {
+                type: 'column'
+            }
+        },
+        columnDefs: [ {
+            className: 'control',
+            orderable: false,
+            targets:   0
+        } ],
+        order: [ 1, 'asc' ],
         lengthMenu: [10, 20, 50, 100],
         iDisplayLength: 20
     });
@@ -165,10 +175,10 @@ $(document).ready(function(){
             $row = $button.parents('tr'),
             data = foodTable.row($row).data(),
             name = $button.parent().text().trim(),
-            protein = data[3],
-            fats = data[4],
-            carbs = data[5],
-            energy = data[6],
+            protein = data[4],
+            fats = data[5],
+            carbs = data[6],
+            energy = data[7],
             $tbody = $('#calculator').find('tbody'),
             $calcWrap = $('#calculator-wrap'),
             $newRow = $(

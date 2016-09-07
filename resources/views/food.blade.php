@@ -296,7 +296,7 @@
             </form>
 
             <div id="calcInfo" class="alert alert-info">
-                <img src="img/calculator.png" /> Чтобы воспользоваться пищевым калькулятором нажмите на значок <img src="img/calculator-add-icon.png" alt="calc" /> слева от наименования продукта.
+                <img src="img/calculator.png" /> Чтобы воспользоваться пищевым калькулятором нажмите на значок <img class="calc-add" src="img/calculator-add.png" alt="calc" /> слева от наименования продукта.
             </div>
 
             <div class="alert alert-info">
@@ -306,6 +306,7 @@
             <table id="food" class="table table-striped">
                 <thead>
                 <tr>
+                    <th></th>
                     <th>Наименоване продукта</th>
                     <th>Категория</th>
                     <th>
@@ -320,7 +321,8 @@
                 <tbody>
                 @foreach ($foodList as $foodItem)
                     <tr>
-                        <td><img class="cursor-pointer js-add-item" src="img/calculator-add-icon.png" alt="calc" /> {{ $foodItem->name }}</td>
+                        <td></td>
+                        <td><img class="cursor-pointer calc-add js-add-item" src="img/calculator-add.png" alt="calc" />&nbsp;{{ $foodItem->name }}</td>
                         <td>{{ $foodItem->category->name }}</td>
                         <td>{{ $foodItem->gi }}</td>
                         <td>{{ $foodItem->protein }}</td>

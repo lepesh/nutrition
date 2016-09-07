@@ -3,7 +3,19 @@
     vertical-align: middle;
     padding: 0 10px;
 }
-
+.calc-add {
+    height: 20px;
+    width: 20px;
+}
+.calc-add:hover {
+    opacity: 0.5;
+}
+@media (max-width: 735px) {
+    .calc-add {
+        height: auto;
+        width: auto;
+    }
+}
 /* Calculator
 --------------------------------------------------- */
 #calculator-wrap {
