@@ -12,7 +12,6 @@
     top: 50px;
     right: 0;
     z-index: 999999999;
-    max-width: 500px;
     padding: 5px;
 }
 #calculator-wrap.shown {
@@ -29,6 +28,13 @@
 }
 .panel-body.calc-container {
     padding: 0;
+    max-width: 470px;
+    max-height: 635px;
+    overflow: auto;
+}
+.panel-body.calc-container.small {
+    max-width: 360px;
+    max-height: 460px;
 }
 .panel-body.calc-container .table {
     margin: 0;

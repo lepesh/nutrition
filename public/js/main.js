@@ -233,7 +233,10 @@ $(document).ready(function(){
         if (!$calcWrap.hasClass('shown')) {
             $calcWrap.addClass('shown');
             if (findBootstrapEnvironment() == 'xs') {
+                $('.calc-container').addClass('small');
                 $('#calcPanel').collapse('hide');
+            } else {
+                $('.calc-container').removeClass('small');
             }
         }
 
