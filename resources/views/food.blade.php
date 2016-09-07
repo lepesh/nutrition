@@ -3,10 +3,11 @@
 @section('title', 'Гликемический индекс, пищевая и энергетическая ценность продуктов. Калькулятор пищевой ценности.')
 
 @section('content')
-    <div id="calculator-wrap">
+    <div id="calculator-wrap" class="shown">
         <div class="panel panel-warning panel-extended">
             <div class="panel-heading" data-toggle="collapse" href="#calcPanel">
                 <div class="panel-title">
+                    <span class="badge progress-bar-danger notification-badge js-items-quantity">0</span>
                     <img src="img/calculator.png" />
                     <div class="panel-heading-control">
                         <a href="javascript:void(0)"><span class="glyphicon glyphicon-minus js-toggle-panel"></span></a>

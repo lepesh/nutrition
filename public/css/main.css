@@ -45,6 +45,12 @@
     height: 25px;
     width: 25px;
 }
+.notification-badge {
+    padding: 3px 6px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
 
 /* Carousel for "It's interesting" block
 --------------------------------------------------- */

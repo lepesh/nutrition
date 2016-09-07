@@ -265,6 +265,8 @@ $(document).ready(function(){
             });
             $table.find('.'+name+'-total').text(roundToDecimals(countable[name], 1));
         }
+        var quantity = $table.find('tbody tr').length;
+        $('.js-items-quantity').text(quantity);
     }
 
     function roundToDecimals(value, digits){
