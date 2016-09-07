@@ -3,7 +3,7 @@
 @section('title', 'Гликемический индекс, пищевая и энергетическая ценность продуктов. Калькулятор пищевой ценности.')
 
 @section('content')
-    <div id="calculator-wrap" class="shown">
+    <div id="calculator-wrap">
         <div class="panel panel-warning panel-extended">
             <div class="panel-heading" data-toggle="collapse" href="#calcPanel">
                 <div class="panel-title">
